@@ -1,0 +1,7 @@
+development:
+  dialect: postgres
+  database: vigilate
+  user: liridonrama
+  password: "1234"
+  host: localhost
+  pool: 5
