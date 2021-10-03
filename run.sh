@@ -6,8 +6,8 @@
 go build -o vigilate cmd/web/*.go && ./vigilate \
 -dbuser='liridonrama' \
 -pusherHost='pusher.com' \
--pusherKey='abc123' \
--pusherSecret='123abc' \
--pusherApp="1"
--pusherPort="4001"
+-pusherKey='123abc' \
+-pusherSecret='abc123' \
+-pusherApp="1" \
+-pusherPort="4001" \
 -pusherSecure=false
